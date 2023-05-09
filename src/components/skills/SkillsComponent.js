@@ -8,9 +8,10 @@ import githubgray from '../../assets/githubgray.png'
 
 export default function SkillsComponent() {
     return (
-        <div className='h-screen flex flex-col bg-opacity-80 w-10/12  mx-auto justify-center bg-[#182126] pt-10'>
-            <h3 className='mb-20 ml-3 uppercase tracking-[20px] text-[#657374] text-center'>Skills</h3>
-            <div className='grid grid-cols-4 gap-3 text-white px-8  mx-auto mb-24'>
+        <div className='relative h-screen flex flex-col bg-opacity-80 w-10/12  mx-auto justify-center items-center bg-[#182126] pt-10'>
+            <h3 className='absolute top-24 uppercase tracking-[20px] text-[#657374] ml-3'>about</h3>
+            <p className='absolute top-28 mt-1 text-[#657374] tracking-[1px] lowercase text-xs'>Hover Over the Icon for more information</p>
+            <div className='grid grid-cols-4 gap-3 text-white px-8 sm:gap-4 md:gap-6 lg:gap-10 mx-auto sm:mt-32 mb-24'>
                 <Skills
                     src='https://img.icons8.com/color/96/000000/javascript--v1.png'
                     percentage='JavaScript'
