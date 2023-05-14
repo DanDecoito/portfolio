@@ -3,6 +3,7 @@ import { SocialIcon } from 'react-social-icons';
 import { motion } from "framer-motion"
 
 
+
 export default function Header() {
     return (
         <header className='sticky top-0 flex items-start w-full justify-between  mx-auto z-20 pt-2 px-5 bg-[#182126] border-black shadow-xl'>
@@ -29,7 +30,8 @@ export default function Header() {
                     url="https://github.com/DanDecoito"
                     fgColor='gray' bgColor='transparent'
                 />
-
+                <SocialIcon url="https://docs.google.com/document/d/e/2PACX-1vTbhVJpQUINdxIxan2UwqHDIFmNwaWLCGtvMAzbNbnoezC5wARoCAXlizpqq3lrcDhhTBMFGRdgvI9f/pub" fgColor='gray' bgColor='transparent'>
+                 </SocialIcon>
             </motion.div>
 
             <motion.div
@@ -51,6 +53,7 @@ export default function Header() {
                 <SocialIcon
                     className='currsor-pointer'
                     network='email'
+                    url='DanielDecoito@gmail.com'
                     fgColor='gray' bgColor='transparent'
                 />
                 <p className='uppercase hidden md:inline-flex mr-3'>Contact</p>

@@ -18,7 +18,7 @@ export default function HeroComponent() {
             <div className=' text-center text-2xl sm:text-2xl md:text-4xl ml-2 p-6 text-white h-20 my-6'>{text}<span className='animate-pulse'>|</span></div>
 
 
-            <div className='mx-auto grid grid-cols-3 gap-2 '>
+            <div className=' grid grid-cols-3 gap-2 justify-items-center'>
 
                 <a href='#about'>
                     <button

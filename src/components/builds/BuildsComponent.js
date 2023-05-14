@@ -1,5 +1,6 @@
 import React from 'react'
 import BuildCards from './BuildCards'
+import PokeCard from './PokeCard'
 
 export default function BuildsComponent() {
   return (
@@ -9,9 +10,8 @@ export default function BuildsComponent() {
 
       <div className='text-white w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory'>
         <BuildCards />
-        <BuildCards />
-        <BuildCards />
-        <BuildCards />
+      
+
 
 
       </div>
